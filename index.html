@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Site Web Multipages</title>
+</head>
+<body>
+    <header>
+        <!-- Barre de navigation -->
+        <nav>
+            <ul>
+                <a href="#Accueil">Accueil</a>
+                <a href="#Formations">Formations</a>
+                <a href="#Compétences">Compétences</a>
+                <a href="#Expériences">Expériences</a>
+                <a href="#Contact">Contact</a>
+                <a href="#A Propos">A Propos</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contenu de la page Accueil -->
+        <section id="Accueil">
+            <h1><span class="Titre">Accueil</span></h1>
+            <p>Bonjour, bienvenue sur mon site !</p>
+        </section>
+
+        <!-- Contenu de la page Formations -->
+        <section id="Formations">
+            <h1><span class="Titre">Formations</span></h1>
+            <p>Ici se trouve mes formations !</p>
+        </section>
+
+        <!-- Contenu de la page Compétences -->
+        <section id="Compétences">
+            <h1><span class="Titre">Compétences</span></h1>
+            <p>Et maintenant, un petit tour dans mes compétences !</p>
+        </section>
+
+         <!-- Contenu de la page Expériences -->
+         <section id="Expériences">
+            <h1><span class="Titre">Expériences</span></h1>
+            <p>Ah, vous préférez mes expreiences personnels ?</p>
+        </section>
+
+         <!-- Contenu de la page Contact -->
+         <section id="Contact">
+            <h1><span class="Titre">Contact</span></h1>
+            <p>Un petit message ?</p>
+            <form action="envoyer_email.php" method="post">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+                <br>
+        
+                <label for="email">E-mail :</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+        
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+        
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+
+         <!-- Contenu de la page A Propos -->
+         <section id="A Propos">
+            <h1><span class="Titre">A Propos</span></h1>
+            <p>Quelques Infos sur le site, rien de bien utile ...</p>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,12 @@
+section {
+    display: none;
+}
+
+section#page1 {
+    display: block;
+}
+
+.Titre {
+    color: blue;
+    font-weight: bolder;
+}
