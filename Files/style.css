@@ -23,7 +23,7 @@ section {
   background-position: center; /* Pour centrer l'image */
   background-attachment: fixed; /* Fixe l'image de fond pour le défilement */
   background-repeat: no-repeat; /* Pas de répétition de l'image de fond */
-  color: lightgray ;
+  color: rgb(11, 20, 153) ;
 }
 
 nav {
@@ -31,6 +31,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #nav a {
