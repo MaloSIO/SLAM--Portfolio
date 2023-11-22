@@ -1,0 +1,39 @@
+/* styles.css */
+
+/* Barre de navigation fixe */
+#nav {
+  position: fixed;
+  top: 0;
+  width: 98.75%;
+  background-color: #333;
+  display: flex; /* Utilisez un affichage flexbox */
+  justify-content: space-evenly; /* Espacement égal entre les boutons */
+  padding: 10px;
+  align-items: center; /* Centrer les boutons verticalement */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  padding-top: 30px; /* Régle la hauteur en pixels de la barre de navigation */
+}
+
+.background-image {
+  background-color: rgb(20, 20, 20); /* Chemin de l'image de fond */
+  background-size: cover; /* Pour couvrir toute la page */
+  background-position: center; /* Pour centrer l'image */
+  background-attachment: fixed; /* Fixe l'image de fond pour le défilement */
+  background-repeat: no-repeat; /* Pas de répétition de l'image de fond */
+  color: lightgray ;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#nav a {
+  color: darkgray;
+  text-decoration: none;
+}
