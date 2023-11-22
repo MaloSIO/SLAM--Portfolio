@@ -23,12 +23,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $envoi = mail($destinataire, $sujet, $message, $headers);
         
         if ($envoi) {
-            echo "L'e-mail a été envoyé avec succès.";
+            echo "Tada, c'est fait ! Maintenant, tu auras une réponse dans 30 ans, 6 mois, 4 jours et 30 secondes.";
         } else {
-            echo "Échec de l'envoi de l'e-mail.";
+            echo "Ah mince, j'ai pas pu te l'envoyer. La bonne nouvelle, c'est que t'as tout perdu !";
         }
     } else {
-        echo "Adresse e-mail invalide.";
+        echo "Tu t'es gourré sur ton mail. Essaye encore !";
     }
 }
 ?>
