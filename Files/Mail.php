@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "Ah mince, j'ai pas pu te l'envoyer. La bonne nouvelle, c'est que t'as tout perdu !";
         }
     } else {
-        echo "Tu t'es gourré sur ton mail. Essaye encore !";
+        echo "Mince, tu t'es gourré sur ton adresse mail. Essaye encore !";
     }
 }
 ?>
