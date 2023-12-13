@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     try {
         //Server settings
-        $mail->SMTPDebug = SMTP::DEBUG_LOWLEVEL;                      //Enable verbose debug output
+        $mail->SMTPDebug = SMTP::DEBUG_OFF;                      //Enable verbose debug output
         $mail->isSMTP();                                            //Send using SMTP
         $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
@@ -42,11 +42,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->send();
 
         // Rediriger vers une page de succès
-        header("Location: confirmation.html");
+        echo "Mail envoyé !";
         exit();
     } catch (Exception $e) {
         // En cas d'erreur, rediriger vers une page d'erreur
-        header("Location: erreur.html");
+        echo "Erreur d'envoi du mail. Rééssaye encore !";
         exit();
     }
 ?>
