@@ -51,6 +51,6 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, #4a24b3, #bb0da4);
+  background: linear-gradient(to right, #4f20ce, #ca08b0);
   transition: background 1s ease;
 }
