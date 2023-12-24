@@ -37,7 +37,20 @@ nav {
   left: 0;
 }
 
+main {
+  color: aliceblue;
+}
+
 nav a {
-  color: darkgray;
+  color: rgb(143, 142, 142);
   text-decoration: none;
+}
+
+.gradient-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #4a24b3, #bb0da4);
+  transition: background 1s ease;
 }
